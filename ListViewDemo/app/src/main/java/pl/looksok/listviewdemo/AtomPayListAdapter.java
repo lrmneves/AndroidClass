@@ -38,12 +38,12 @@ public class AtomPayListAdapter extends ArrayAdapter<Presentation> {
 
 		holder = new AtomPaymentHolder();
 		holder.atomPayment = items.get(position);
-		holder.removePaymentButton = (ImageButton)row.findViewById(R.id.atomPay_removePay);
+		holder.removePaymentButton = (ImageButton)row.findViewById(R.id.remove_step);
 		holder.removePaymentButton.setTag(holder.atomPayment);
 
 		holder.name = (TextView)row.findViewById(R.id.atomPay_name);
 		setNameTextChangeListener(holder);
-		holder.value = (ImageButton)row.findViewById(R.id.atomPay_value);
+		holder.value = (ImageButton)row.findViewById(R.id.edit_step);
 		setValueTextListeners(holder);
 
 		row.setTag(holder);

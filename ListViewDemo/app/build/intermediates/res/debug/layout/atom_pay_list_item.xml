@@ -14,18 +14,19 @@
         android:textAppearance="?android:attr/textAppearanceSmall" />
 
     <ImageButton
-        android:id="@+id/atomPay_value"
-        android:layout_width="wrap_content"
-        android:layout_height="fill_parent"
-        android:contentDescription="@string/app_name"
-        android:onClick="removeAtomPayOnClickHandler"
-        android:src="@android:drawable/ic_menu_delete" />
-
-    <ImageButton
-        android:id="@+id/atomPay_removePay"
+        android:id="@+id/edit_step"
         android:layout_width="@dimen/width_button"
         android:layout_height="fill_parent"
         android:contentDescription="@string/app_name"
-        android:onClick="removeAtomPayOnClickHandler"
+        android:onClick="editPresentation"
         android:src="@android:drawable/ic_menu_preferences" />
+
+    <ImageButton
+        android:id="@+id/remove_step"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:contentDescription="@string/app_name"
+        android:onClick="removePresentation"
+        android:src="@android:drawable/ic_menu_delete" />
+
 </LinearLayout><!-- From: file:/Users/lrmneves/workspace/AndroidClass/ListViewDemo/app/src/main/res/layout/atom_pay_list_item.xml -->

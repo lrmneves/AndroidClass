@@ -14,13 +14,17 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="pl.looksok.listviewdemo.AddNewPerson"
+            android:name=".PresentationList"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".CreatePresentation"
+            android:label="@string/title_activity_create_presentation" >
         </activity>
     </application>
 

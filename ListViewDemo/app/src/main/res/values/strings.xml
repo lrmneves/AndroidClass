@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">ListViewDemo</string>
+    <string name="app_name">PresentationList</string>
     <string name="EnterPays_atomPay_nameHint">nazwa platnosci</string>
     <string name="EnterPays_TextView_ZeroValue">0</string>
-    <string name="EnterPays_addPayment">Add Payment</string>
+    <string name="Add_step">New Presentation</string>
+    <string name="finish_presentation">Finish</string>
+    <string name="title_activity_create_presentation">CreatePresentation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
 
 </resources>

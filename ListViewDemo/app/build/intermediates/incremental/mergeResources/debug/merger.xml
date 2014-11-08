@@ -37,11 +37,13 @@
             <file
                 path="/Users/lrmneves/workspace/AndroidClass/ListViewDemo/app/src/main/res/values/strings.xml"
                 qualifiers="" >
+                <string name="finish_presentation" >Finish
+                </string>
                 <string name="EnterPays_atomPay_nameHint" >nazwa platnosci
                 </string>
-                <string name="app_name" >ListViewDemo
+                <string name="app_name" >PresentationList
                 </string>
-                <string name="EnterPays_addPayment" >Add Payment
+                <string name="Add_step" >New Presentation
                 </string>
                 <string name="EnterPays_TextView_ZeroValue" >0
                 </string>
@@ -68,6 +70,11 @@
                     <!-- All customizations that are NOT specific to a particular API-level can go here. -->
                 </style>
             </file>
+            <file
+                name="create_presentation"
+                path="/Users/lrmneves/workspace/AndroidClass/ListViewDemo/app/src/main/res/layout/create_presentation.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="/Users/lrmneves/workspace/AndroidClass/ListViewDemo/app/build/generated/res/rs/debug" />
         <source path="/Users/lrmneves/workspace/AndroidClass/ListViewDemo/app/build/generated/res/generated/debug" />

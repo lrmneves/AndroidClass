@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ListViewActivity" >
+
+    <Button
+        android:id="@+id/add_step"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Add_step"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:layout_alignBottom="@+id/finish"
+        android:layout_alignParentRight="true" />
+
+    <ListView
+        android:id="@+id/EnterPays_atomPaysList"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/atom_pay_list_item"
+        android:layout_below="@+id/finish">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:text="New Text"
+        android:id="@+id/total_time"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/EnterPays_atomPaysList"/>
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/finish_presentation"
+        android:drawableLeft="@android:drawable/ic_input_add"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout><!-- From: file:/Users/lrmneves/workspace/AndroidClass/ListViewDemo/app/src/main/res/layout/create_presentation.xml -->
